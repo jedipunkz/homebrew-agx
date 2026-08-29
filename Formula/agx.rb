@@ -3,30 +3,30 @@
 class Agx < Formula
   desc "Run multiple AI coding agents in parallel, each isolated in its own git worktree, and monitor them all from a single terminal dashboard"
   homepage "https://github.com/jedipunkz/agx"
-  version "1.0.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/jedipunkz/agx/releases/download/v#{version}/agx_v#{version}_darwin_amd64"
-      sha256 "3942251ffe36da6a21e952cc66a34eea172852a14548a29424f57bde6de5d247"
+      sha256 "a3dd53a0907cd67b996ef0c18076712ddb163aef4152d18fcf721f886e3f7745"
     end
 
     on_arm do
       url "https://github.com/jedipunkz/agx/releases/download/v#{version}/agx_v#{version}_darwin_arm64"
-      sha256 "bd411235b23b546b222bcd2dcb6995847cede784ecb03c68edfc06f373193e11"
+      sha256 "2d35efde6253402ed8480d8d72499fe300c151639f52deb1d57926c5d090209b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jedipunkz/agx/releases/download/v#{version}/agx_v#{version}_linux_amd64"
-      sha256 "ce28044bea4cec66d8fdd43e595ab83389b53c75eb09e2c2b2d4fc228e16d064"
+      sha256 "a2839ab79506c1c58edc8526ddcf14be5addd5b9304949e338e9a2121076cf1d"
     end
 
     on_arm do
       url "https://github.com/jedipunkz/agx/releases/download/v#{version}/agx_v#{version}_linux_arm64"
-      sha256 "0e56d89425821a114f48960e52adee636dd9f7e6151473a891535020cd7123a7"
+      sha256 "4a2c96f9231fb6dcec575ecb62e07e9fb9d70cae886c20611ae22da5f6171a4b"
     end
   end
 
